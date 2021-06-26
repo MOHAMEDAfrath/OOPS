@@ -20,6 +20,8 @@ namespace OOPS
             EncapsulationDemo encapsulationDemo = new EncapsulationDemo();
             encapsulationDemo.myage = 21;
             Console.WriteLine("My Age: "+encapsulationDemo.myage);
+            Console.WriteLine("static Demo with concatenation example: "+StaticDemo.concatenate());
+            
 
 
 
