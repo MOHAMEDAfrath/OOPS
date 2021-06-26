@@ -7,12 +7,17 @@ namespace OOPS
         static void Main(string[] args)
         {
             Inheritance inheritance = new Multiplication();
-            Console.WriteLine(inheritance.addOrMultiply(5, 3));
+            Console.WriteLine("Multiplied :"+ inheritance.addOrMultiply(5, 3));
             inheritance = new Inheritance();
-            Console.WriteLine(inheritance.addOrMultiply(3,5));
+            Console.WriteLine("Added :" +inheritance.addOrMultiply(3,5));
             OverloadingMethod overloadingMethod = new OverloadingMethod();
-            Console.WriteLine(overloadingMethod.addNumbers(1, 2));
-            Console.WriteLine(overloadingMethod.addNumbers(1, 2,3));
+            Console.WriteLine("Added Two numbers: "+overloadingMethod.addNumbers(1, 2));
+            Console.WriteLine("Added Three Numbers: "+overloadingMethod.addNumbers(1, 2,3));
+            DisplayingName displayingName = new DisplayingName();
+            Console.WriteLine("My Name:"+displayingName.displayname());
+            DisplayCollegeName displayCollegeName = new DisplayCollegeName();
+            Console.WriteLine("My College name: "+displayCollegeName.displayname());
+
 
 
 
