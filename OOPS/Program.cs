@@ -17,6 +17,10 @@ namespace OOPS
             Console.WriteLine("My Name:"+displayingName.displayname());
             DisplayCollegeName displayCollegeName = new DisplayCollegeName();
             Console.WriteLine("My College name: "+displayCollegeName.displayname());
+            EncapsulationDemo encapsulationDemo = new EncapsulationDemo();
+            encapsulationDemo.myage = 21;
+            Console.WriteLine("My Age: "+encapsulationDemo.myage);
+
 
 
 
