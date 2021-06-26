@@ -9,12 +9,17 @@ namespace OOPS
             Inheritance inheritance = new Multiplication();
             Console.WriteLine(inheritance.addOrMultiply(5, 3));
             inheritance = new Inheritance();
-            inheritance.addOrMultiply(3,5);
-            
-           
+            Console.WriteLine(inheritance.addOrMultiply(3,5));
+            OverloadingMethod overloadingMethod = new OverloadingMethod();
+            Console.WriteLine(overloadingMethod.addNumbers(1, 2));
+            Console.WriteLine(overloadingMethod.addNumbers(1, 2,3));
 
 
-            
+
+
+
+
+
         }
     }
 }
